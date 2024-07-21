@@ -10,7 +10,7 @@ class Tastytrade:
     The SDK's top-level class
     """
 
-    def __init__(self, api_base_url: str = 'api.tastytrade.com'):
+    def __init__(self, api_base_url: str = 'api.cert.tastyworks.com'):
         """
         :param api_base_url: Optionally override the base URL used by the API
         (when using the sandbox environment, for e.g.)
